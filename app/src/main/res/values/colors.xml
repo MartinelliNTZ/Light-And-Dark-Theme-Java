@@ -32,6 +32,10 @@
     <color name="darcula">#202124</color>
 
 
+    <color name="fundoApp">#188C18</color>
+    <color name="textoPrimario">#000000</color>
+
+
 
 
 </resources>
