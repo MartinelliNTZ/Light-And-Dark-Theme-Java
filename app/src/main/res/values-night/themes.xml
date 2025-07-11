@@ -1,17 +1,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Tema escuro do app -->
     <style name="Theme.Themes2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/secundary</item>
-        <item name="colorPrimaryVariant">@color/primary</item>
-        <item name="colorOnPrimary">@color/darcula</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/light_brown</item>
-        <item name="colorSecondaryVariant">@color/brown</item>
-        <item name="colorOnSecondary">@color/darcula</item>
-        <!-- Status bar color. -->
+
+        <!-- Cor primária (ex: botões, barras) -->
+        <item name="colorPrimary">@color/corPrimaria</item>
+        <item name="colorPrimaryVariant">@color/corPrimariaVariant</item>
+        <item name="colorOnPrimary">@color/textoInverso
+        </item> <!-- Cor do texto sobre colorPrimary -->
+
+        <!-- Cor secundária (ex: elementos de destaque) -->
+        <item name="colorSecondary">@color/corSecundaria</item>
+        <item name="colorSecondaryVariant">@color/corSecundariaVariant</item>
+        <item name="colorOnSecondary">@color/textoInverso</item>
+
+        <!-- Cor da status bar -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
+        <!-- Cor de fundo da janela principal -->
         <item name="android:windowBackground">@color/fundoApp</item>
+        <item name="colorSurface">@color/superficie</item>
+        <item name="colorError">@color/corErro</item>
+
     </style>
 </resources>

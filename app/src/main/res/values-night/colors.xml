@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="fundoApp">#202420</color>
+    <!--Other surface colors and red for error color-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#B00020</color>
+
+    <color name="primary">#086366</color>
+    <color name="secundary">#33B3B8</color>
+    <color name="light_green">#9AB4B5</color>
+    <color name="light_brown">#D59B57</color>
+    <color name="brown">#683D0A</color>
+    <color name="darcula">#202124</color>
+
+    <!-- Cores principais (mais suaves no escuro) -->
+    <color name="corPrimaria">#33B3B8</color>
+    <color name="corPrimariaVariant">#9AB4B5</color>
+    <color name="corSecundaria">#D59B57</color>
+    <color name="corSecundariaVariant">#683D0A</color>
+
+    <!-- Fundo e superfície escuros -->
+    <color name="fundoApp">#202124</color>
+    <color name="superficie">#202124</color>
+
+    <!-- Texto -->
     <color name="textoPrimario">#FFFFFF</color>
+    <color name="textoSecundario">#CCCCCC</color>
+    <color name="textoInverso">#000000</color>
+
+    <!-- Estados -->
+    <color name="corErro">#CF6679</color>
+    <color name="corSucesso">#81C784</color>
+
+    <!-- Cor para botões -->
+    <color name="corBotao">#BB86FC</color>
+    <color name="textoBotao">#000000</color>
 </resources>
